@@ -64,4 +64,32 @@ Desventajas:
 - Se tiene que esperar a hacer todo el try para obtener los valores
 - Se tiene que usar un pollyfill
 
+Datos recividos por una promesa: resolve y reject
+
+Método recomendando por la comunidad para manejar asincronismo en JavaScript: async await
+
+El estado 4 de xhttp.readyState hace referencia: completed
+
+El método then() retorna: json
+
+La recomendación de la comunidad para anidar callbacks es: maximo 3 callbacks
+
+Expresión la cual pausa la ejecución de la función así­ncrona y espera la resolución de la Promise: then
+
+Nos permite definir una función así­ncrona: async
+
+Para qué utilizamos `JSON.parse(xhttp.responseText)`: xml to objeto inmutable
+
+Nos permite ejecutar una serie de promesas secuencialmente : promise.all()
+
+Las promesas resuelven un principal problema de las callbacks: callback hell
+
+Cómo aseguramos manejar los errores asincrónicos correctamente: try{} catch (err) {}
+
+Cuál es la forma correcta de retornar un Error en reject: reject(new Error('Error'))
+
+Para qué nos sirve el método "catch()" : Registrar la razon del rechazo 
+
+Para qué nos sirve el método XMLHttpRequest: hacer solicitudes http facilmente
+
  */
