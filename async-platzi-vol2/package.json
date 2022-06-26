@@ -1,0 +1,17 @@
+{
+  "name": "async-platzi-vol2",
+  "version": "1.0.0",
+  "description": "Curso de platzi sobre la asincronia, segunda edicion ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "adrian garcia <@adranuz>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
