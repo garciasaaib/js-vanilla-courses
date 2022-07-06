@@ -4,7 +4,8 @@
   "description": "Curso de platzi sobre la asincronia, segunda edicion ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cb": "node callback/index.js",
+    "cb:x": "node callback/challenge.js"
   },
   "keywords": [
     "javascript"
@@ -12,6 +13,7 @@
   "author": "adrian garcia <@adranuz>",
   "license": "MIT",
   "dependencies": {
-    "nodemon": "^2.0.18"
+    "nodemon": "^2.0.18",
+    "xmlhttprequest": "^1.8.0"
   }
 }
