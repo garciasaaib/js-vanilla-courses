@@ -1,0 +1,12 @@
+{
+  "layout": "lesson",
+  "lessonTitle": "DBMS",
+  "permalink": "/DBMS/",
+  "feedbackID": "01-dbms",
+  "quizzID" : "6076f533bbe844ed01c38129",
+  "homeworkUrl": "https://github.com/soyHenry/FT-M4/tree/master/01-dbms/homework",
+  "eleventyNavigation": {
+    "key": "DBMS",
+    "order": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "04-authentication-demo-passport",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "Unlicense",
+  "script": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
+}

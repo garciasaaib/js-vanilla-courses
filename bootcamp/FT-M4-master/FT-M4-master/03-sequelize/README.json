@@ -1,0 +1,12 @@
+{
+  "layout": "lesson",
+  "lessonTitle": "Sequelize",
+  "permalink": "/Sequelize/",
+  "feedbackID": "03-sequelize",
+  "quizzID" : "607879524397ea47a1a8cf87",
+  "homeworkUrl": "https://github.com/soyHenry/FT-M4/tree/master/03-sequelize/homework",
+  "eleventyNavigation": {
+    "key": "Sequelize",
+    "order": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "01-node",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon bash.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

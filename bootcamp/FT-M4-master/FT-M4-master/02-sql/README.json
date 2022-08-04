@@ -1,0 +1,12 @@
+{
+  "layout": "lesson",
+  "lessonTitle": "SQL",
+  "permalink": "/SQL/",
+  "feedbackID": "02-sql",
+  "quizzID" : "60785d6e4397ea47a1a8cdd3",
+  "homeworkUrl": "https://github.com/soyHenry/FT-M4/tree/master/02-sql/homework/WorkShopSQL.md",
+  "eleventyNavigation": {
+    "key": "SQL",
+    "order": 2
+  }
+}

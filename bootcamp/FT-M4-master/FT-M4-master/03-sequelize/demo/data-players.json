@@ -1,0 +1,128 @@
+[
+  {
+      "skill": 97,
+      "firstName": "Lionel",
+      "lastName": "Messi",
+      "username": "LM",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 86,
+      "firstName": "Rodrigo",
+      "lastName": "De Paul",
+      "username": "RDP",
+      "birthday": "1991-03-13",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 50,
+      "firstName": "Franco",
+      "lastName": "Gonzalez",
+      "username": "FG",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 50,
+      "firstName": "Franco",
+      "lastName": "Etcheverri",
+      "username": "FE",
+      "birthday": "2021-06-19",
+      "status": "injured",
+      "password": "12345"
+  },
+  {
+      "skill": 51,
+      "firstName": "A",
+      "lastName": "1",
+      "username": "A1",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 52,
+      "firstName": "A",
+      "lastName": "2",
+      "username": "A2",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 53,
+      "firstName": "A",
+      "lastName": "3",
+      "username": "A3",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 54,
+      "firstName": "A",
+      "lastName": "4",
+      "username": "A4",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 55,
+      "firstName": "A",
+      "lastName": "5",
+      "username": "A5",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 56,
+      "firstName": "A",
+      "lastName": "6",
+      "username": "A6",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 57,
+      "firstName": "A",
+      "lastName": "7",
+      "username": "A7",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 58,
+      "firstName": "A",
+      "lastName": "8",
+      "username": "A8",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 59,
+      "firstName": "A",
+      "lastName": "9",
+      "username": "A9",
+      "birthday": "2021-06-20",
+      "status": "active",
+      "password": "12345"
+  },
+  {
+      "skill": 85,
+      "firstName": "Pablo",
+      "lastName": "Aimar",
+      "username": "PA",
+      "birthday": "2021-06-20",
+      "status": "retired",
+      "password": "12345"
+  }
+]
