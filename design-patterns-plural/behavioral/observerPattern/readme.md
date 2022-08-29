@@ -1,0 +1,1 @@
+Patron observer, conocido tambien como publish-subscribe, consta de estos dos objetos,
