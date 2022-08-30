@@ -6,7 +6,7 @@ var repo = {
         return { name: 'new task from db'}
     },
 
-    // adding a new command to the repo
+    // adding a new task to the taskList
     save: function (task) {
         repo.tasks[task.id] = task
         console.log('saving '+task.name+' to the db')
@@ -18,6 +18,7 @@ repo.execute = function (name) {
     // there is all the extra arguments
     var args = Array.prototype.slice.call(arguments, 1)
     
+    // add commands to commandList
     repo.commands.push({
         name,
         obj: args[0]

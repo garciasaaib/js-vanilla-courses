@@ -51,7 +51,7 @@ var mediator = (function () {
     }
 
     return {
-        subscribe, publish, channels: {}
+        subscribe, publish, channels
     }
 })()
 
@@ -73,7 +73,8 @@ mediator.subscribe('complete', audit, audit.update)
 
 task1.complete = function () {
     mediator.publish('complete', this)
-    Task.prototype.complete.call(this)
+    // Task.prototype.complete.call(this)
 }
+
 task1.complete()
 task1.save()

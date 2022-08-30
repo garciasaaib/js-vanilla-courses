@@ -14,13 +14,15 @@ repo.execute = function (name) {
     var args = Array.prototype.slice.call(arguments, 1)
     
     // check into repo if the method exists
-    if (repo[name]) 
-        return repo[name].apply(repo, args)
+    if (repo[name]) return repo[name].apply(repo, args)
     return false
 }
+
+
 
 repo.execute('save', {
     id: 1,
     name: 'Task 1',
     completed: false
 })
+

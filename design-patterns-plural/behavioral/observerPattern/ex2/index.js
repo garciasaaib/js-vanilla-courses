@@ -17,6 +17,7 @@ class Subject{
         });
     }
 }
+
 class Observer{
     
     constructor(fn){
@@ -47,3 +48,5 @@ s.subscribe(o3);
 function change(){
     s.notify(myText.value);
 }
+
+change()

@@ -21,10 +21,19 @@ const Emitter = (() => {
             topics[topic].forEach(item =>
                 item(params != undefined ? params : {})
             );
-        }
+        },
+
+        // retornar el listado de metodos no es buena practica
+        // pero para que lo veas
+        topics
     }
 
 })()
 
 Emitter.on('saludar', ({name}) => console.log(`hola ${name}`))
+Emitter.on('grettings', ({name}) => console.log(`grettings ${name}`))
+Emitter.on('aloha', ({name}) => console.log(`aloha ${name}`))
+Emitter.on('konishiwa', ({name}) => console.log(`konishiwa ${name}`))
 Emitter.emit('saludar', {name: "adrian"})
+
+console.log(Emitter.topics);

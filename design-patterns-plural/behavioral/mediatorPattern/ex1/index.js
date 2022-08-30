@@ -1,6 +1,6 @@
 // Es un objeto que define como otros objetos van a interactuar
 // Redux implementa el mediador
-const mediator = () => {
+const mediator = (() => {
     // lista de eventos
     const events = {}
 
@@ -21,19 +21,25 @@ const mediator = () => {
 
     return {
         subscribe,
-        dispatch
+        dispatch,
+        events
     }
-}
+})()
 
-
-mediador.subscribe('login', ({username, password}) => {
+//registras en mediador
+mediator.subscribe('login', function({username, password}) {
     // inicio de sesion
     console.log('Welcome ' + username)
 })
+mediator.subscribe('logout', function() {
+    // cerrado de sesion
+    console.log('byebye')
+})
+//ejecutas mediador
+mediator.dispatch('login', {username: "adrian", password: "123456"})
+mediator.dispatch('logout')
 
-mediador.dispatch('login', {username: "adrian", password: "123456"})
-
-
+console.log(mediator.events)
 /** diferencias entre mediador y observador
     el mediador necesita un objeto a parte para manejar las comunicaciones de todos los objetos
     el observador modifica el objeto que va a escuchar
