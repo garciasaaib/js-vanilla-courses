@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            padding: 1rem;
+            box-sizing: border-box;
+            min-height: 100vh;
+            min-width: 100vw;
+            background: teal;
+            flex-direction: column;
+        }
+
+
+
+        .container {
+            width: 100%;
+            height: 100px;
+
+        }
+
+        .square {
+            height: 100px;
+            width: 100px;
+            background: red;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <header class="header">
+        <h1>Set a pair number</h1>
+        <h2 id="header"></h2>
+        <div>
+
+        </div>
+        <form id="form" autocomplete="off">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control autocomplete-off is-invalid" autocomplete="off" id="colorInput"
+                    placeholder="name@example.com">
+                <label for="colorInput">Write your favorite color</label>
+                <div class="valid-feedback">
+                    Looks good! good eye!
+                </div>
+                <div class="invalid-feedback">
+                    Please choose a primary or secondary color.
+                </div>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-outline-success" type="submit">Button</button>
+            </div>
+        </form>
+    </header>
+    <section class="card">
+        <div class="square"></div>
+    </section>
+
+    <script>
+        const $form = document.getElementById('form')
+        $form.addEventListener("submit", (event) => {
+            event.preventDefault()
+            const data = new FormData($form)
+            console.log(data)
+        }, true)
+
+        function handleSubmit(event) {
+            event.preventDefault();
+
+            console.log('holo')
+        }
+        const input = document.getElementById('input')
+        const header = document.getElementById('header')
+
+        function show() {
+            const value = Number(input.value)
+
+            switch (value) {
+                case "green":
+                case 4:
+                case 6:
+                case 8:
+                case 10:
+                    header.textContent = `${value} is valid`
+                    break;
+                default:
+                    header.textContent = 'Not valid number'
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>
