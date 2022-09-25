@@ -13,11 +13,9 @@ function que acepte un [] de numeros
 
 /*
     create funcion
-    verify params is an array 
+    verify params is an array
     verify every value is numb
     check if numbers are repeted ? return false : return true
-    
-    
  */
 
  function areNumbersRepeated(array) {
@@ -33,4 +31,7 @@ function que acepte un [] de numeros
  console.log(areNumbersRepeated([1,2,'3',3])) // false
  console.log(areNumbersRepeated([1,2,3,3])) // true
  console.log(areNumbersRepeated([1,2,3,4])) // false
+
+
+
  

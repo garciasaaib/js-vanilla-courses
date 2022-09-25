@@ -1,0 +1,31 @@
+{
+  "name": "js-vanilla-courses",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "fundamentals/getting-started",
+    "design-patterns-plural",
+    "async-platzi-vol1",
+    "async-platzi-vol2",
+    "FT-M1-master/FT-M1-master",
+    "FT-M2-master/FT-M2-master",
+    "FT-M3-master/FT-M3-master",
+    "FT-M4-master/FT-M4-master"
+  ],
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adranuz/js-vanilla-courses.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adranuz/js-vanilla-courses/issues"
+  },
+  "homepage": "https://github.com/adranuz/js-vanilla-courses#readme"
+}
