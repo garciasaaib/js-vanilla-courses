@@ -17,7 +17,7 @@ const users = [
 // }
 
 const traePrimerInfante = data => {
-  return toStringInfante(format(head(data.filter(x => x.edad < 2))))    
+  return toStringInfante(format(head(data.filter(x => x.edad < 2))))
 }
 
 const head = list => list[0]
