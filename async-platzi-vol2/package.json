@@ -13,7 +13,7 @@
   "author": "adrian garcia <@adranuz>",
   "license": "MIT",
   "dependencies": {
-    "nodemon": "^2.0.18",
+    "nodemon": "^2.0.20",
     "xmlhttprequest": "^1.8.0"
   }
 }
